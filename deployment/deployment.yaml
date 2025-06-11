@@ -17,6 +17,7 @@ spec:
       containers:
       - name: zurich-weather-app
         image: bumory1987/zurich-weather-app:main
+        imagePullPolicy: Always  # 항상 이미지 다시 가져오기
         ports:
         - containerPort: 3000
         resources:

@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: naeri99/zurich-weather-app
+          images: bumory1987/zurich-weather-app
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
